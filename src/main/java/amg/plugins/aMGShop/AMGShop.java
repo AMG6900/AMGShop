@@ -1,6 +1,5 @@
 package amg.plugins.aMGShop;
 
-import org.bstats.bukkit.Metrics;
 import amg.plugins.aMGShop.commands.ShopCommand;
 import amg.plugins.aMGShop.managers.ConfigManager;
 import amg.plugins.aMGShop.database.DatabaseManager;
@@ -29,8 +28,6 @@ public class AMGShop extends JavaPlugin {
         // Save default resources
         saveDefaultConfig();
         saveDefaultResources();
-        int pluginId = 26721;
-        Metrics metrics = new Metrics(this, pluginId);
         // Initialize managers
         this.configManager = new ConfigManager(this);
         
