@@ -1,0 +1,22 @@
+# Food category configuration
+name: "&6Food"
+icon: COOKED_BEEF
+items:
+  bread:
+    material: BREAD
+    buy_price: 2.0
+    sell_price: 1.0
+    max_stock: 1000
+    initial_stock: 100
+  cooked_beef:
+    material: COOKED_BEEF
+    buy_price: 5.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+  apple:
+    material: APPLE
+    buy_price: 3.0
+    sell_price: 1.5
+    max_stock: 1000
+    initial_stock: 100 

@@ -1,0 +1,22 @@
+# Misc category configuration
+name: "&7Misc"
+icon: CHEST
+items:
+  chest:
+    material: CHEST
+    buy_price: 10.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100
+  crafting_table:
+    material: CRAFTING_TABLE
+    buy_price: 5.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+  furnace:
+    material: FURNACE
+    buy_price: 15.0
+    sell_price: 7.5
+    max_stock: 500
+    initial_stock: 50 

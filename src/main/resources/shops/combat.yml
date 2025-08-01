@@ -1,0 +1,34 @@
+# Combat category configuration
+name: "&cCombat"
+icon: DIAMOND_SWORD
+items:
+  wooden_sword:
+    material: WOODEN_SWORD
+    buy_price: 5.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+  stone_sword:
+    material: STONE_SWORD
+    buy_price: 10.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100
+  iron_sword:
+    material: IRON_SWORD
+    buy_price: 50.0
+    sell_price: 25.0
+    max_stock: 500
+    initial_stock: 50
+  diamond_sword:
+    material: DIAMOND_SWORD
+    buy_price: 200.0
+    sell_price: 100.0
+    max_stock: 100
+    initial_stock: 10
+  leather_helmet:
+    material: LEATHER_HELMET
+    buy_price: 10.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100 

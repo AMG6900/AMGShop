@@ -1,0 +1,22 @@
+# Tools category configuration
+name: "&eTools"
+icon: DIAMOND_PICKAXE
+items:
+  wooden_pickaxe:
+    material: WOODEN_PICKAXE
+    buy_price: 5.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+  stone_pickaxe:
+    material: STONE_PICKAXE
+    buy_price: 10.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100
+  iron_pickaxe:
+    material: IRON_PICKAXE
+    buy_price: 50.0
+    sell_price: 25.0
+    max_stock: 500
+    initial_stock: 50 

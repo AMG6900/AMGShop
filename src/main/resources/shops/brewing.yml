@@ -1,0 +1,22 @@
+# Brewing category configuration
+name: "&5Brewing"
+icon: BREWING_STAND
+items:
+  brewing_stand:
+    material: BREWING_STAND
+    buy_price: 50.0
+    sell_price: 25.0
+    max_stock: 500
+    initial_stock: 50
+  blaze_powder:
+    material: BLAZE_POWDER
+    buy_price: 20.0
+    sell_price: 10.0
+    max_stock: 1000
+    initial_stock: 100
+  nether_wart:
+    material: NETHER_WART
+    buy_price: 10.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100 

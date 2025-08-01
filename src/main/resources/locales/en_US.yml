@@ -1,0 +1,93 @@
+# English (US) locale file for AMGShop
+
+# General messages
+prefix: "&8[&6AMGShop&8] "
+no_permission: "&c&lError: &cYou don't have permission to do that!"
+
+# Shop messages
+shop:
+  title: "&6AMG Shop"
+  buy_menu_title: "&6AMG Shop - Buy"
+  sell_menu_title: "&6AMG Shop - Sell"
+  quantity_menu_title: "&6Select Quantity - %item%"
+  
+  # Category names
+  category:
+    blocks: "&eBuilding Blocks"
+    combat: "&cCombat Items"
+    food: "&aFood & Farming"
+    tools: "&bTools & Equipment"
+    redstone: "&4Redstone & Mechanisms"
+    brewing: "&5Brewing & Potions"
+    decoration: "&dDecoration"
+    misc: "&7Miscellaneous"
+  
+  # Button texts
+  buttons:
+    close: "&cClose"
+    back_to_main: "&cBack to Main Menu"
+    your_balance: "&6Your Balance"
+    next_page: "&eNext Page"
+    next_page_lore: "&7Click to go to page %page%"
+    prev_page: "&ePrevious Page"
+    prev_page_lore: "&7Click to go to page %page%"
+    buy: "&aBuy"
+    sell: "&cSell"
+    quantity: "&eSelect Quantity"
+    confirm: "&aConfirm"
+    cancel: "&cCancel"
+    add_one: "&a+1"
+    add_sixteen: "&a+16"
+    add_thirtytwo: "&a+32"
+    add_sixtyfour: "&a+64"
+    remove_one: "&c-1"
+    remove_sixteen: "&c-16"
+    remove_thirtytwo: "&c-32"
+    remove_sixtyfour: "&c-64"
+    set_max: "&eSet to Maximum"
+    current_quantity: "&7Current: &e%amount%"
+    full_stack: "&eSet to Full Stack (64)"
+  
+  # Item lore
+  lore:
+    price_per_item: "Price per item: $%price%"
+    total_price: "Total Price: $%price%"
+    tax_included: "Includes Tax: $%tax%"
+    tax_deducted: "Tax Deducted: $%tax%"
+    price_before_tax: "Price Before Tax: $%price%"
+    current_stock: "Current Stock: %current%/%max%"
+    click_to_buy: "Click to Buy"
+    click_to_sell: "Click to Sell"
+    place_items: "Place items in empty slots"
+    see_value: "to see their sell value"
+    cannot_sell: "This item cannot be sold"
+    not_in_shop: "This item is not sold in the shop"
+    current_prices: "Current sell prices:"
+    no_items: "No items to sell"
+    inflation_rate: "Inflation: %rate%%"
+
+# Transaction messages
+transaction:
+  item_bought: "&a&lSuccess! &fYou bought &e%amount%x %item% &ffor &a$%price% &7(includes $%tax% tax)"
+  item_sold: "&a&lSuccess! &fYou sold &e%amount%x %item% &ffor &a$%price% &7(-$%tax% tax)"
+  items_sold_bulk: "&a&lSuccess! &fYou sold items for &a$%price%"
+  not_enough_money: "&c&lError: &fYou don't have enough money! You need &c$%price% &7(+$%tax% tax)"
+  not_enough_items: "&c&lError: &fYou don't have enough items to sell!"
+  not_enough_stock: "&c&lError: &fThe shop doesn't have enough stock!"
+  inventory_full: "&c&lError: &fYour inventory is full!"
+  max_stock_reached: "&c&lError: &fThe shop has reached maximum stock for this item!"
+
+# Tax messages
+tax:
+  button_name: "&6Collect Taxes"
+  button_lore:
+    - "&7Current taxes: &e$%amount%"
+    - "&7Click to collect!"
+  collected: "&a&lSuccess! &fYou collected &a$%amount% &fin shop taxes!"
+  not_owner: "&c&lError: &fOnly the shop owner can do this!"
+  no_taxes: "&c&lError: &fThere are no taxes to collect! (Current: $%amount%)"
+
+# Info button
+info:
+  title: "AMG Shop Info"
+  owner: "Shop Owner: %owner%"

@@ -1,0 +1,34 @@
+# Blocks category configuration
+name: "&aBlocks"
+icon: GRASS_BLOCK
+items:
+  stone:
+    material: STONE
+    buy_price: 2.0
+    sell_price: 1.0
+    max_stock: 10000
+    initial_stock: 1000
+  dirt:
+    material: DIRT
+    buy_price: 1.0
+    sell_price: 0.5
+    max_stock: 10000
+    initial_stock: 1000
+  grass_block:
+    material: GRASS_BLOCK
+    buy_price: 3.0
+    sell_price: 1.5
+    max_stock: 5000
+    initial_stock: 500
+  cobblestone:
+    material: COBBLESTONE
+    buy_price: 1.5
+    sell_price: 0.75
+    max_stock: 10000
+    initial_stock: 1000
+  oak_planks:
+    material: OAK_PLANKS
+    buy_price: 4.0
+    sell_price: 2.0
+    max_stock: 5000
+    initial_stock: 500 
