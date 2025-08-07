@@ -1,0 +1,129 @@
+# Bulgarian (BG) locale file for AMGShop
+
+# General messages
+prefix: "&8[&6AMGShop&8] "
+no_permission: "&c&lГрешка: &cНямате разрешение за това!"
+
+# Shop messages
+shop:
+  title: "&6AMG Магазин"
+  buy_menu_title: "&6AMG Магазин - Купуване"
+  sell_menu_title: "&6AMG Магазин - Продаване"
+  quantity_menu_title: "&6Избор на количество - %item%"
+  
+  # Category names
+  category:
+    blocks: "&7Блокове"
+    ores: "&bРуди"
+    mobs: "&4Мобове"
+    farming: "&2Земеделие"
+    food: "&6Храна"
+    other: "&5Други"
+    decoration: "&dДекорации"
+    redstone: "&cРедстоун"
+    dyes: "&7Бои"
+    
+  # Category descriptions
+  category_desc:
+    blocks: "Основни строителни материали"
+    ores: "Необработени руди и обработени минерали"
+    mobs: "Предмети от чудовища и мобове"
+    food: "Храна и консумативи"
+    farming: "Реколта, семена и земеделски инструменти"
+    redstone: "Редстоун компоненти и механизми"
+    dyes: "Бои, цветове и пигменти"
+    decoration: "Декоративни блокове и предмети"
+    other: "Разни полезни предмети"
+  
+  # Button texts
+  buttons:
+    # Navigation and common buttons
+    close: "&cЗатвори"
+    back_to_main: "&cОбратно към менюто"
+    back_to_category: "&cОбратно към категорията"
+    your_balance: "&6Вашият баланс"
+    loading: "&7Зареждане..."
+    
+    # Page navigation
+    next_page: "&eСледваща страница"
+    next_page_lore: "&7Отиди на страница %page%"
+    prev_page: "&eПредишна страница"
+    prev_page_lore: "&7Отиди на страница %page%"
+    
+    # Buy/Sell buttons
+    buy: "&aКупи"
+    sell: "&cПродай"
+    confirm_purchase: "&aПотвърди покупката"
+    cancel: "&cОтказ"
+    
+    # Quantity selection
+    quantity: "&eИзбрано количество"
+    add_one: "&a+1"
+    add_sixteen: "&a+16"
+    add_thirtytwo: "&a+32"
+    remove_one: "&c-1"
+    remove_sixteen: "&c-16"
+    remove_thirtytwo: "&c-32"
+    current_quantity: "&7Текущо: &e%amount%"
+    full_stack: "&eПълен стак (64)"
+  
+  # Item lore
+  lore:
+    # Item information
+    item_count: "Съдържа %count% предмета"
+    stock: "Наличност: %amount%"
+    price: "Цена: $%price%"
+    total_price: "Обща цена: $%price%"
+    
+    # Tax and economic info
+    tax_included: "Включен данък: $%tax%"
+    tax_deducted: "Удържан данък: $%tax%"
+    price_before_tax: "Цена преди данък: $%price%"
+    inflation: "Инфлация: %rate%%"
+    
+    # Stock information
+    current_stock: "Текуща наличност: %current%/%max%"
+    selected_quantity: "Количество: %quantity%"
+    
+    # Action prompts
+    click_to_buy: "Кликнете за покупка"
+    click_to_sell: "Кликнете за продажба"
+    click_full_stack: "Кликнете за пълен стак"
+    
+    # Sell menu info
+    place_items: "Поставете предметите в празните слотове"
+    see_value: "за да видите тяхната стойност"
+    cannot_sell: "Този предмет не може да бъде продаден"
+    not_in_shop: "Този предмет не се продава в магазина"
+    current_prices: "Текущи цени за продажба:"
+    no_items: "Няма предмети за продажба"
+
+# Transaction messages
+transaction:
+  # Success messages
+  purchase_success: "&a&lУспех! &fЗакупихте &e%quantity%x %item% &fза &a$%price%"
+  item_bought: "&a&lУспех! &fЗакупихте &e%amount%x %item% &fза &a$%price% &7(включва $%tax% данък)"
+  item_sold: "&a&lУспех! &fПродадохте &e%amount%x %item% &fза &a$%price% &7(-$%tax% данък)"
+  items_sold_bulk: "&a&lУспех! &fПродадохте предмети за &a$%price%"
+  
+  # Error messages
+  not_enough_money: "&c&lГрешка: &fНужни са ви $%price% за тази покупка"
+  not_enough_items: "&c&lГрешка: &fНямате достатъчно предмети за продажба!"
+  not_enough_stock: "&c&lГрешка: &fНяма достатъчно наличност! Налично: %available%, Поискано: %requested%"
+  inventory_full: "&c&lГрешка: &fИнвентарът ви е пълен!"
+  max_stock_reached: "&c&lГрешка: &fМагазинът достигна максимална наличност за този предмет!"
+
+# Tax messages
+tax:
+  button_name: "&6Събери данъци"
+  button_lore:
+    - "&7Текущи данъци: &e$%amount%"
+    - "&7Кликнете за събиране!"
+  collected: "&a&lУспех! &fСъбрахте &a$%amount% &fданъци от магазина!"
+  not_owner: "&c&lГрешка: &fСамо собственикът на магазина може да прави това!"
+  no_taxes: "&c&lГрешка: &fНяма данъци за събиране! (Текущо: $%amount%)"
+
+# Info button
+info:
+  title: "AMG Магазин Информация"
+  owner: "Собственик: %owner%"

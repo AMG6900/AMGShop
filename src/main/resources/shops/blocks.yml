@@ -1,0 +1,324 @@
+name: "&7Blocks"
+icon: STONE
+items:
+  stone:
+    material: STONE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 50000
+    initial_stock: 5000
+  calcite:
+    material: CALCITE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  dripstone_block:
+    material: DRIPSTONE_BLOCK
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x POINTED_DRIPSTONE"
+  hay_block:
+    material: HAY_BLOCK
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x WHEAT"
+  honey_block:
+    material: HONEY_BLOCK
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x HONEY_BOTTLE"
+  magma_block:
+    material: MAGMA_BLOCK
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  packed_ice:
+    material: PACKED_ICE
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x ICE"
+  rooted_dirt:
+    material: ROOTED_DIRT
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  slime_block:
+    material: SLIME_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "9x SLIME_BALL"
+  snow_block:
+    material: SNOW_BLOCK
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x SNOW"
+  soul_sand:
+    material: SOUL_SAND
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  tnt:
+    material: TNT
+    buy_price: 100.0
+    sell_price: 25.0
+    max_stock: 100
+    initial_stock: 10
+    ingredients:
+      - "5x GUNPOWDER"
+      - "4x SAND"
+  tuff:
+    material: TUFF
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  glowstone:
+    material: GLOWSTONE
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x GLOWSTONE_DUST"
+  andesite:
+    material: ANDESITE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  polished_andesite:
+    material: POLISHED_ANDESITE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x ANDESITE"
+  bamboo_block:
+    material: BAMBOO_BLOCK
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "9x BAMBOO"
+  blackstone:
+    material: BLACKSTONE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  polished_blackstone:
+    material: POLISHED_BLACKSTONE
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x BLACKSTONE"
+  bookshelf:
+    material: BOOKSHELF
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x PLANKS"
+      - "3x BOOK"
+  bricks:
+    material: BRICKS
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x BRICK"
+  cobblestone:
+    material: COBBLESTONE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 50000
+    initial_stock: 5000
+  mossy_cobblestone:
+    material: MOSSY_COBBLESTONE
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x COBBLESTONE"
+      - "1x VINE"
+  concrete:
+    material: WHITE_CONCRETE
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x CONCRETE_POWDER"
+      - "1x WATER_BUCKET"
+  copper_block:
+    material: COPPER_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x COPPER_INGOT"
+  deepslate:
+    material: DEEPSLATE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  diorite:
+    material: DIORITE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  dirt:
+    material: DIRT
+    buy_price: 2.0
+    sell_price: 0.5
+    max_stock: 50000
+    initial_stock: 5000
+  grass_block:
+    material: GRASS_BLOCK
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  gravel:
+    material: GRAVEL
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  glass:
+    material: GLASS
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x SAND"
+  granite:
+    material: GRANITE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  mud:
+    material: MUD
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x DIRT"
+      - "1x WATER_BUCKET"
+  netherrack:
+    material: NETHERRACK
+    buy_price: 2.0
+    sell_price: 0.5
+    max_stock: 50000
+    initial_stock: 5000
+  obsidian:
+    material: OBSIDIAN
+    buy_price: 100.0
+    sell_price: 25.0
+    max_stock: 200
+    initial_stock: 20
+  prismarine:
+    material: PRISMARINE
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x PRISMARINE_SHARD"
+  purpur_block:
+    material: PURPUR_BLOCK
+    buy_price: 20.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x POPPED_CHORUS_FRUIT"
+  quartz_block:
+    material: QUARTZ_BLOCK
+    buy_price: 64.0
+    sell_price: 16.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x NETHER_QUARTZ"
+  sand:
+    material: SAND
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 10000
+    initial_stock: 1000
+  red_sand:
+    material: RED_SAND
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  sandstone:
+    material: SANDSTONE
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "4x SAND"
+  terracotta:
+    material: TERRACOTTA
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  wood:
+    material: OAK_LOG
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  planks:
+    material: OAK_PLANKS
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 10000
+    initial_stock: 1000
+    ingredients:
+      - "1x LOG"
+  wool:
+    material: WHITE_WOOL
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100

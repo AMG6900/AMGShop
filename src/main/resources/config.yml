@@ -1,0 +1,171 @@
+# AMGShop Configuration
+
+# Debug mode - shows additional information in console
+debug: false
+
+# Database settings
+database:
+  type: h2
+  file: "shop"
+  encryption: true
+  username: "sa"
+  password: "shoppassword"
+  max_connections: 10
+
+# Locale settings
+locale:
+  # Available languages: en_US, bg_BG
+  language: "en_US"
+
+# Economy settings
+economy:
+  # Priority order for economy providers
+  # Options: "auto", "amgcore_first", "vault_first"
+  # - auto: Use both if available, with AMGCore as primary if present
+  # - amgcore_first: Prefer AMGCore over Vault if both are available
+  # - vault_first: Prefer Vault over AMGCore if both are available
+  priority: "auto"
+  
+  # Whether to synchronize balances between AMGCore and Vault when both are available
+  # This will log warnings when balances don't match but won't automatically sync
+  # Set to true to enable balance checking
+  check_balance_sync: true
+
+# Shop settings
+shop:
+  # Number of rows in the main menu (6-9)
+  rows: 6
+
+  # Owner settings
+  owner:
+    uuid: ""
+    name: "None"
+
+  # Tax settings
+  tax:
+    enabled: true
+    buy_tax: 20.0  # Percentage of price that goes to tax collection (e.g., 20.0 = 20%)
+    sell_tax: 20.0 # Percentage of price that goes to tax collection for sales
+    show_in_lore: true
+    collection_button:
+      material: GOLD_INGOT
+      slot: 49
+
+  # Inflation settings
+  inflation:
+    enabled: true
+    base_rate: 0.05
+    max_rate: 0.5
+    stock_influence: 0.1
+
+  # Price fluctuation settings
+  price_fluctuation:
+    enabled: true
+    # Price sensitivity controls how dramatically prices change with stock levels
+    # Higher values = more dramatic price changes
+    # Lower values = more stable prices
+    # Range: 1.0 to 10.0
+    # Examples:
+    # 1.0: Prices range from 150% (empty) to 75% (full)
+    # 5.0: Prices range from 250% (empty) to 40% (full)
+    # 10.0: Prices range from 400% (empty) to 25% (full)
+    sensitivity: 5.0
+    # Price adjustment settings
+    adjustment:
+      # How quickly prices change (higher = faster changes)
+      # Range: 0.1 to 10.0
+      speed: 1.0
+      
+      # How strongly prices react to stock changes
+      # Range: 0.1 to 5.0
+      intensity: 1.0
+      
+      # Minimum price multiplier (when stock is high)
+      # Values less than 1.0 reduce the price
+      # Example: 0.5 = 50% of base price when stock is high
+      min_multiplier: 0.5
+      
+      # Maximum price multiplier (when stock is low)
+      # Values greater than 1.0 increase the price
+      # Example: 1.5 = 150% of base price when stock is low
+      max_multiplier: 1.5
+      
+      # Stock threshold for low stock (percentage of max stock)
+      # When stock is at or below this percentage, prices will be at maximum
+      # Range: 1 to 100
+      low_stock_percent: 10
+      
+      # Stock threshold for high stock (percentage of max stock)
+      # When stock is at or above this percentage, prices will be at minimum
+      # Range: 1 to 100
+      high_stock_percent: 90
+      
+      # Recovery rate - how quickly prices return to base
+      # Range: 0.0 to 1.0 (0 = never, 1 = instant)
+      recovery_rate: 0.1
+      
+      # Update interval in minutes
+      # How often prices are automatically adjusted
+      update_interval: 60
+
+# Categories configuration
+categories:
+  blocks:
+    name: '&7Blocks'
+    icon: STONE
+    slot: 11
+  
+  ores:
+    name: '&bOres'
+    icon: DIAMOND
+    slot: 13
+  
+  mobs:
+    name: '&4Mobs'
+    icon: DIAMOND_SWORD
+    slot: 15
+  
+  farming:
+    name: '&2Farming'
+    icon: WHEAT
+    slot: 20
+  
+  food:
+    name: '&6Food'
+    icon: COOKED_BEEF
+    slot: 22
+  
+  other:
+    name: '&5Other'
+    icon: CRAFTING_TABLE
+    slot: 24
+  
+  decoration:
+    name: '&dDecorations'
+    icon: FLOWER_POT
+    slot: 29
+  
+  redstone:
+    name: '&cRedstone'
+    icon: REDSTONE
+    slot: 31
+  
+  dyes:
+    name: '&7Dyes'
+    icon: PURPLE_DYE
+    slot: 33
+
+# NPC settings
+npcs:
+  # General NPC settings
+  hide_nametag: false     # Whether to completely hide nametags
+  
+  buy:
+    name: "&6Shop Keeper"
+    villager_type: "PLAINS"  # PLAINS, DESERT, JUNGLE, SAVANNA, SNOW, SWAMP, TAIGA
+    profession: "LIBRARIAN"  # ARMORER, BUTCHER, CARTOGRAPHER, CLERIC, FARMER, FISHERMAN, FLETCHER, LEATHERWORKER, LIBRARIAN, MASON, NITWIT, NONE, SHEPHERD, TOOLSMITH, WEAPONSMITH
+  
+  sell:
+    name: "&eMerchant"
+    villager_type: "DESERT"
+    profession: "MASON" 

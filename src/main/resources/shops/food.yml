@@ -1,0 +1,129 @@
+name: "&6Food"
+icon: COOKED_BEEF
+items:
+  apple:
+    material: APPLE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  bread:
+    material: BREAD
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "3x WHEAT"
+  cake:
+    material: CAKE
+    buy_price: 50.0
+    sell_price: 12.5
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x WHEAT"
+      - "3x MILK_BUCKET"
+      - "2x SUGAR"
+      - "1x EGG"
+  cooked_salmon:
+    material: COOKED_SALMON
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x SALMON"
+  cookie:
+    material: COOKIE
+    buy_price: 6.0
+    sell_price: 1.5
+    max_stock: 2000
+    initial_stock: 200
+    ingredients:
+      - "2x WHEAT"
+      - "1x COCOA_BEANS"
+  glistering_melon_slice:
+    material: GLISTERING_MELON_SLICE
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "1x MELON_SLICE"
+      - "8x GOLD_NUGGET"
+  golden_carrot:
+    material: GOLDEN_CARROT
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "1x CARROT"
+      - "8x GOLD_NUGGET"
+  honey_bottle:
+    material: HONEY_BOTTLE
+    buy_price: 10.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x GLASS_BOTTLE"
+      - "1x HONEY"
+  baked_potato:
+    material: BAKED_POTATO
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x POTATO"
+  cooked_beef:
+    material: COOKED_BEEF
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x BEEF"
+  cooked_chicken:
+    material: COOKED_CHICKEN
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x CHICKEN"
+  cooked_mutton:
+    material: COOKED_MUTTON
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x MUTTON"
+  cooked_porkchop:
+    material: COOKED_PORKCHOP
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x PORKCHOP"
+  cooked_rabbit:
+    material: COOKED_RABBIT
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x RABBIT"
+  beetroot_soup:
+    material: BEETROOT_SOUP
+    buy_price: 20.0
+    sell_price: 5.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x BEETROOT"
+      - "1x BOWL"

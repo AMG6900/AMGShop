@@ -1,0 +1,26 @@
+name: AMGShop
+version: '${project.version}'
+main: amg.plugins.aMGShop.AMGShop
+api-version: '1.20'
+description: A comprehensive shop plugin with GUI and NPC integration
+softdepend: [AMGCore, Vault]
+
+commands:
+  amgshop:
+    description: Main command for AMGShop
+    usage: /amgshop <command>
+    aliases: [shop]
+    permission: amgshop.admin
+
+permissions:
+  amgshop.*:
+    description: Gives access to all AMGShop commands
+    children:
+      amgshop.admin: true
+      amgshop.use: true
+  amgshop.admin:
+    description: Allows access to admin commands
+    default: op
+  amgshop.use:
+    description: Allows using the shop
+    default: true

@@ -1,0 +1,141 @@
+name: "&7Dyes"
+icon: PURPLE_DYE
+items:
+  black_dye:
+    material: BLACK_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x INK_SAC"
+  blue_dye:
+    material: BLUE_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x CORNFLOWER"
+  brown_dye:
+    material: BROWN_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x COCOA_BEANS"
+  cyan_dye:
+    material: CYAN_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  gray_dye:
+    material: GRAY_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  green_dye:
+    material: GREEN_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x CACTUS"
+  light_blue_dye:
+    material: LIGHT_BLUE_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x BLUE_ORCHID"
+  light_gray_dye:
+    material: LIGHT_GRAY_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x AZURE_BLUET"
+  lime_dye:
+    material: LIME_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  magenta_dye:
+    material: MAGENTA_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x LILAC"
+  orange_dye:
+    material: ORANGE_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x ORANGE_TULIP"
+  pink_dye:
+    material: PINK_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x PINK_TULIP"
+  purple_dye:
+    material: PURPLE_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  red_dye:
+    material: RED_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x POPPY"
+  white_dye:
+    material: WHITE_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x LILY_OF_THE_VALLEY"
+  yellow_dye:
+    material: YELLOW_DYE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x DANDELION"
+  flowers:
+    material: SUNFLOWER
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+  special_flowers:
+    material: TORCHFLOWER
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 100
+    initial_stock: 10
+  ink_sac:
+    material: INK_SAC
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100

@@ -1,0 +1,174 @@
+name: "&2Farming"
+icon: WHEAT
+items:
+  bamboo:
+    material: BAMBOO
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 5000
+    initial_stock: 500
+  beehive:
+    material: BEEHIVE
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x PLANKS"
+      - "3x HONEYCOMB"
+  beetroot:
+    material: BEETROOT
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  beetroot_seeds:
+    material: BEETROOT_SEEDS
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 1000
+    initial_stock: 100
+  brown_mushroom:
+    material: BROWN_MUSHROOM
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  cactus:
+    material: CACTUS
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  carrot:
+    material: CARROT
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  chorus_flower:
+    material: CHORUS_FLOWER
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+  chorus_fruit:
+    material: CHORUS_FRUIT
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+  cocoa_beans:
+    material: COCOA_BEANS
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+  crimson_fungus:
+    material: CRIMSON_FUNGUS
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+  egg:
+    material: EGG
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  kelp:
+    material: KELP
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  leather:
+    material: LEATHER
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 1000
+    initial_stock: 100
+  melon:
+    material: MELON
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+  melon_seeds:
+    material: MELON_SEEDS
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  melon_slice:
+    material: MELON_SLICE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  nether_wart:
+    material: NETHER_WART
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  pitcher_pod:
+    material: PITCHER_POD
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+  potato:
+    material: POTATO
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  pumpkin:
+    material: PUMPKIN
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  pumpkin_seeds:
+    material: PUMPKIN_SEEDS
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  red_mushroom:
+    material: RED_MUSHROOM
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  sugar_cane:
+    material: SUGAR_CANE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 5000
+    initial_stock: 500
+  torchflower_seeds:
+    material: TORCHFLOWER_SEEDS
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+  warped_fungus:
+    material: WARPED_FUNGUS
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+  wheat:
+    material: WHEAT
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+  wheat_seeds:
+    material: WHEAT_SEEDS
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 5000
+    initial_stock: 500

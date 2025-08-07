@@ -1,0 +1,173 @@
+name: "&dDecorations"
+icon: FLOWER_POT
+items:
+  chain:
+    material: CHAIN
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x IRON_INGOT"
+  flower_pot:
+    material: FLOWER_POT
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "3x BRICK"
+  honeycomb_block:
+    material: HONEYCOMB_BLOCK
+    buy_price: 36.0
+    sell_price: 9.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x HONEYCOMB"
+  jack_o_lantern:
+    material: JACK_O_LANTERN
+    buy_price: 20.0
+    sell_price: 5.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x PUMPKIN"
+      - "1x TORCH"
+  pointed_dripstone:
+    material: POINTED_DRIPSTONE
+    buy_price: 4.0
+    sell_price: 1.0
+    max_stock: 2000
+    initial_stock: 200
+  spore_blossom:
+    material: SPORE_BLOSSOM
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 500
+    initial_stock: 50
+  candle:
+    material: CANDLE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x STRING"
+      - "1x HONEYCOMB"
+  colored_candle:
+    material: BLACK_CANDLE
+    buy_price: 10.0
+    sell_price: 2.5
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x CANDLE"
+      - "1x DYE"
+  sea_lantern:
+    material: SEA_LANTERN
+    buy_price: 80.0
+    sell_price: 20.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x PRISMARINE_CRYSTALS"
+      - "5x PRISMARINE_SHARD"
+  shroomlight:
+    material: SHROOMLIGHT
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 1000
+    initial_stock: 100
+  froglight:
+    material: OCHRE_FROGLIGHT
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+  coral:
+    material: BRAIN_CORAL
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+  coral_block:
+    material: BRAIN_CORAL_BLOCK
+    buy_price: 64.0
+    sell_price: 16.0
+    max_stock: 200
+    initial_stock: 20
+  coral_fan:
+    material: BRAIN_CORAL_FAN
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 500
+    initial_stock: 50
+  leaves:
+    material: OAK_LEAVES
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  sapling:
+    material: OAK_SAPLING
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  sign:
+    material: OAK_SIGN
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "6x PLANKS"
+      - "1x STICK"
+  hanging_sign:
+    material: OAK_HANGING_SIGN
+    buy_price: 20.0
+    sell_price: 5.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x STRIPPED_LOGS"
+      - "2x CHAIN"
+  vine:
+    material: VINE
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+  glow_lichen:
+    material: GLOW_LICHEN
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+  pottery_sherd:
+    material: ANGLER_POTTERY_SHERD
+    buy_price: 100.0
+    sell_price: 25.0
+    max_stock: 100
+    initial_stock: 10
+  decorated_pot:
+    material: DECORATED_POT
+    buy_price: 200.0
+    sell_price: 50.0
+    max_stock: 100
+    initial_stock: 10
+    ingredients:
+      - "4x BRICK"
+  armor_trim_template:
+    material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+    buy_price: 1000.0
+    sell_price: 250.0
+    max_stock: 10
+    initial_stock: 1
+  netherite_upgrade_template:
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    buy_price: 2000.0
+    sell_price: 500.0
+    max_stock: 5
+    initial_stock: 1

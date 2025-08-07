@@ -1,0 +1,112 @@
+name: "&5Other"
+icon: CRAFTING_TABLE
+items:
+  barrel:
+    material: BARREL
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x PLANKS"
+      - "2x WOODEN_SLAB"
+  blast_furnace:
+    material: BLAST_FURNACE
+    buy_price: 80.0
+    sell_price: 20.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "1x FURNACE"
+      - "5x IRON_INGOT"
+      - "3x SMOOTH_STONE"
+  brewing_stand:
+    material: BREWING_STAND
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "1x BLAZE_ROD"
+      - "3x COBBLESTONE"
+  cartography_table:
+    material: CARTOGRAPHY_TABLE
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x PLANKS"
+      - "2x PAPER"
+  composter:
+    material: COMPOSTER
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "7x WOODEN_SLAB"
+  fletching_table:
+    material: FLETCHING_TABLE
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x PLANKS"
+      - "2x FLINT"
+  grindstone:
+    material: GRINDSTONE
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "2x PLANKS"
+      - "2x STICK"
+      - "1x STONE_SLAB"
+  lectern:
+    material: LECTERN
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "4x WOODEN_SLAB"
+      - "1x BOOKSHELF"
+  loom:
+    material: LOOM
+    buy_price: 24.0
+    sell_price: 6.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "2x PLANKS"
+      - "2x STRING"
+  smithing_table:
+    material: SMITHING_TABLE
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "4x PLANKS"
+      - "2x IRON_INGOT"
+  smoker:
+    material: SMOKER
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "1x FURNACE"
+      - "4x WOOD"
+  stonecutter:
+    material: STONECUTTER
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x STONE"
+      - "1x IRON_INGOT"

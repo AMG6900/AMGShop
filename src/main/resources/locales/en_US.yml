@@ -1,0 +1,129 @@
+# English (US) locale file for AMGShop
+
+# General messages
+prefix: "&8[&6AMGShop&8] "
+no_permission: "&c&lError: &cYou don't have permission to do that!"
+
+# Shop messages
+shop:
+  title: "&6AMG Shop"
+  buy_menu_title: "&6AMG Shop - Buy"
+  sell_menu_title: "&6AMG Shop - Sell"
+  quantity_menu_title: "&6Select Quantity - %item%"
+  
+  # Category names
+  category:
+    blocks: "&7Blocks"
+    ores: "&bOres"
+    mobs: "&4Mobs"
+    farming: "&2Farming"
+    food: "&6Food"
+    other: "&5Other"
+    decoration: "&dDecorations"
+    redstone: "&cRedstone"
+    dyes: "&7Dyes"
+    
+  # Category descriptions
+  category_desc:
+    blocks: "Basic building materials"
+    ores: "Raw ores and processed minerals"
+    mobs: "Monster drops and mob loot"
+    food: "Food and consumables"
+    farming: "Crops, seeds and farming tools"
+    redstone: "Redstone components and mechanisms"
+    dyes: "Dyes, colors and pigments"
+    decoration: "Decorative blocks and items"
+    other: "Miscellaneous useful items"
+  
+  # Button texts
+  buttons:
+    # Navigation and common buttons
+    close: "&cClose"
+    back_to_main: "&cBack to Main Menu"
+    back_to_category: "&cBack to Category"
+    your_balance: "&6Your Balance"
+    loading: "&7Loading..."
+    
+    # Page navigation
+    next_page: "&eNext Page"
+    next_page_lore: "&7Click to go to page %page%"
+    prev_page: "&ePrevious Page"
+    prev_page_lore: "&7Click to go to page %page%"
+    
+    # Buy/Sell buttons
+    buy: "&aBuy"
+    sell: "&cSell"
+    confirm_purchase: "&aConfirm Purchase"
+    cancel: "&cCancel"
+    
+    # Quantity selection
+    quantity: "&eSelected Quantity"
+    add_one: "&a+1"
+    add_sixteen: "&a+16"
+    add_thirtytwo: "&a+32"
+    remove_one: "&c-1"
+    remove_sixteen: "&c-16"
+    remove_thirtytwo: "&c-32"
+    current_quantity: "&7Current: &e%amount%"
+    full_stack: "&eSet to Full Stack (64)"
+  
+  # Item lore
+  lore:
+    # Item information
+    item_count: "Contains %count% items"
+    stock: "Stock: %amount%"
+    price: "Price: $%price%"
+    total_price: "Total Price: $%price%"
+    
+    # Tax and economic info
+    tax_included: "Includes Tax: $%tax%"
+    tax_deducted: "Tax Deducted: $%tax%"
+    price_before_tax: "Price Before Tax: $%price%"
+    inflation: "Inflation: %rate%%"
+    
+    # Stock information
+    current_stock: "Current Stock: %current%/%max%"
+    selected_quantity: "Amount: %quantity%"
+    
+    # Action prompts
+    click_to_buy: "Click to Buy"
+    click_to_sell: "Click to Sell"
+    click_full_stack: "Click to set to full stack"
+    
+    # Sell menu info
+    place_items: "Place items in empty slots"
+    see_value: "to see their sell value"
+    cannot_sell: "This item cannot be sold"
+    not_in_shop: "This item is not sold in the shop"
+    current_prices: "Current sell prices:"
+    no_items: "No items to sell"
+
+# Transaction messages
+transaction:
+  # Success messages
+  purchase_success: "&a&lSuccess! &fBought &e%quantity%x %item% &ffor &a$%price%"
+  item_bought: "&a&lSuccess! &fYou bought &e%amount%x %item% &ffor &a$%price% &7(includes $%tax% tax)"
+  item_sold: "&a&lSuccess! &fYou sold &e%amount%x %item% &ffor &a$%price% &7(-$%tax% tax)"
+  items_sold_bulk: "&a&lSuccess! &fYou sold items for &a$%price%"
+  
+  # Error messages
+  not_enough_money: "&c&lError: &fYou need $%price% to make this purchase"
+  not_enough_items: "&c&lError: &fYou don't have enough items to sell!"
+  not_enough_stock: "&c&lError: &fNot enough stock! Available: %available%, Requested: %requested%"
+  inventory_full: "&c&lError: &fYour inventory is full!"
+  max_stock_reached: "&c&lError: &fThe shop has reached maximum stock for this item!"
+
+# Tax messages
+tax:
+  button_name: "&6Collect Taxes"
+  button_lore:
+    - "&7Current taxes: &e$%amount%"
+    - "&7Click to collect!"
+  collected: "&a&lSuccess! &fYou collected &a$%amount% &fin shop taxes!"
+  not_owner: "&c&lError: &fOnly the shop owner can do this!"
+  no_taxes: "&c&lError: &fThere are no taxes to collect! (Current: $%amount%)"
+
+# Info button
+info:
+  title: "AMG Shop Info"
+  owner: "Shop Owner: %owner%"

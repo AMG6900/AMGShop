@@ -1,0 +1,166 @@
+name: "&bOres"
+icon: DIAMOND
+items:
+  amethyst_block:
+    material: AMETHYST_BLOCK
+    buy_price: 36.0
+    sell_price: 9.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x AMETHYST_SHARD"
+  amethyst_shard:
+    material: AMETHYST_SHARD
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+  ancient_debris:
+    material: ANCIENT_DEBRIS
+    buy_price: 1000.0
+    sell_price: 250.0
+    max_stock: 50
+    initial_stock: 5
+  coal:
+    material: COAL
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 5000
+    initial_stock: 500
+  coal_block:
+    material: COAL_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x COAL"
+  copper_block:
+    material: COPPER_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x COPPER_INGOT"
+  copper_ingot:
+    material: COPPER_INGOT
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  diamond:
+    material: DIAMOND
+    buy_price: 400.0
+    sell_price: 100.0
+    max_stock: 100
+    initial_stock: 10
+  diamond_block:
+    material: DIAMOND_BLOCK
+    buy_price: 3600.0
+    sell_price: 900.0
+    max_stock: 20
+    initial_stock: 2
+    ingredients:
+      - "9x DIAMOND"
+  emerald:
+    material: EMERALD
+    buy_price: 100.0
+    sell_price: 25.0
+    max_stock: 200
+    initial_stock: 20
+  emerald_block:
+    material: EMERALD_BLOCK
+    buy_price: 900.0
+    sell_price: 225.0
+    max_stock: 50
+    initial_stock: 5
+    ingredients:
+      - "9x EMERALD"
+  gold_block:
+    material: GOLD_BLOCK
+    buy_price: 288.0
+    sell_price: 72.0
+    max_stock: 100
+    initial_stock: 10
+    ingredients:
+      - "9x GOLD_INGOT"
+  gold_ingot:
+    material: GOLD_INGOT
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+  iron_block:
+    material: IRON_BLOCK
+    buy_price: 144.0
+    sell_price: 36.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "9x IRON_INGOT"
+  iron_ingot:
+    material: IRON_INGOT
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  lapis_block:
+    material: LAPIS_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x LAPIS_LAZULI"
+  lapis_lazuli:
+    material: LAPIS_LAZULI
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  netherite_block:
+    material: NETHERITE_BLOCK
+    buy_price: 10000.0
+    sell_price: 2500.0
+    max_stock: 10
+    initial_stock: 1
+    ingredients:
+      - "9x NETHERITE_INGOT"
+  netherite_ingot:
+    material: NETHERITE_INGOT
+    buy_price: 1200.0
+    sell_price: 300.0
+    max_stock: 20
+    initial_stock: 2
+    ingredients:
+      - "4x GOLD_INGOT"
+      - "4x ANCIENT_DEBRIS"
+  quartz:
+    material: QUARTZ
+    buy_price: 16.0
+    sell_price: 4.0
+    max_stock: 1000
+    initial_stock: 100
+  quartz_block:
+    material: QUARTZ_BLOCK
+    buy_price: 64.0
+    sell_price: 16.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x QUARTZ"
+  redstone:
+    material: REDSTONE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 2000
+    initial_stock: 200
+  redstone_block:
+    material: REDSTONE_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x REDSTONE"

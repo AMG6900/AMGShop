@@ -1,0 +1,141 @@
+name: "&cRedstone"
+icon: REDSTONE
+items:
+  redstone:
+    material: REDSTONE
+    buy_price: 8.0
+    sell_price: 2.0
+    max_stock: 5000
+    initial_stock: 500
+  redstone_block:
+    material: REDSTONE_BLOCK
+    buy_price: 72.0
+    sell_price: 18.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "9x REDSTONE"
+  redstone_torch:
+    material: REDSTONE_TORCH
+    buy_price: 12.0
+    sell_price: 3.0
+    max_stock: 1000
+    initial_stock: 100
+    ingredients:
+      - "1x REDSTONE"
+      - "1x STICK"
+  repeater:
+    material: REPEATER
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x STONE"
+      - "2x REDSTONE_TORCH"
+      - "1x REDSTONE"
+  comparator:
+    material: COMPARATOR
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x STONE"
+      - "3x REDSTONE_TORCH"
+      - "1x NETHER_QUARTZ"
+  piston:
+    material: PISTON
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x PLANKS"
+      - "4x COBBLESTONE"
+      - "1x IRON_INGOT"
+      - "1x REDSTONE"
+  sticky_piston:
+    material: STICKY_PISTON
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "1x PISTON"
+      - "1x SLIME_BALL"
+  dispenser:
+    material: DISPENSER
+    buy_price: 40.0
+    sell_price: 10.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "7x COBBLESTONE"
+      - "1x BOW"
+      - "1x REDSTONE"
+  dropper:
+    material: DROPPER
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "7x COBBLESTONE"
+      - "1x REDSTONE"
+  observer:
+    material: OBSERVER
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "6x COBBLESTONE"
+      - "2x REDSTONE"
+      - "1x NETHER_QUARTZ"
+  hopper:
+    material: HOPPER
+    buy_price: 80.0
+    sell_price: 20.0
+    max_stock: 200
+    initial_stock: 20
+    ingredients:
+      - "5x IRON_INGOT"
+      - "1x CHEST"
+  redstone_lamp:
+    material: REDSTONE_LAMP
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x REDSTONE"
+      - "1x GLOWSTONE"
+  note_block:
+    material: NOTE_BLOCK
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "8x PLANKS"
+      - "1x REDSTONE"
+  daylight_detector:
+    material: DAYLIGHT_DETECTOR
+    buy_price: 48.0
+    sell_price: 12.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "3x GLASS"
+      - "3x NETHER_QUARTZ"
+      - "3x WOODEN_SLAB"
+  target:
+    material: TARGET
+    buy_price: 32.0
+    sell_price: 8.0
+    max_stock: 500
+    initial_stock: 50
+    ingredients:
+      - "4x REDSTONE"
+      - "1x HAY_BLOCK"
